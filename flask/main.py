@@ -40,4 +40,4 @@ def hello():
         return f" Error occuredd with message : {e}", 401
 
 if __name__=="__main__":
-    app.run()
+    app.run(debug = True)

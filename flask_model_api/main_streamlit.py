@@ -18,11 +18,11 @@ def predict_flower():
 
 
         result = classifier.predict([[sw,sl,pw,pl]])
-        
+
         if st.button("Print output"):
             st.success(result)
     except Exception as e :
-        return f" Error occuredd with message : {e}"
+        return f" Error occured with message : {e}"
 
 if __name__=="__main__":
     predict_flower()
